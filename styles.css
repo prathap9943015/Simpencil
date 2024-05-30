@@ -1,0 +1,95 @@
+body {
+  background: #f5f5f5;
+}
+
+/* header */
+
+.header {
+  background-color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1); /* Bottom shadow effect */
+}
+
+.nav-link {
+  color: #0a2570;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 5px 8px;
+}
+
+.nav-link:hover {
+  color: #0a2570;
+  text-decoration: none;
+}
+
+.profile-logo {
+  background-color: #0a2570;
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* Page header */
+
+.page-number-block {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  background: #e2e2e2;
+}
+
+.page-button {
+  background: #cdddea;
+  border-color: #cdddea;
+  box-shadow: none;
+  color: #0d2772;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding: 5px 8px;
+  cursor: pointer;
+}
+
+.page-button.active {
+  background: #0d2772;
+  color: #cdddea;
+}
+
+.page-button-dash {
+  color: #8997a5;
+}
+
+/* Left sidebar */
+
+.left-sidebar {
+  border-right: 2px solid #d6d6d6;
+  width: 30%;
+  height: 100%;
+  min-height: 500px;
+  padding: 20px;
+}
+
+.sidebar-heading {
+  color: #0a2570;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sidebar-heading-value {
+  color: #7f8ea0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.skills-badge {
+  border-radius: 4px;
+  background: #e6eef5;
+  color: #7b8da0;
+  padding: 3px 10px;
+}
